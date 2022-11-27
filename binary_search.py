@@ -15,8 +15,8 @@ def binary_search(sorted_array, target):
     return None
 
 
-
-assert binary_search([0, 2, 4, 6, 8], 0) == 0
-assert binary_search([1, 3, 5, 7, 9], 3) == 1
-assert binary_search([-9, 2, 13, 27, 31], 13) == 2
-assert binary_search([-9, 2, 13, 27, 31], 27) == 3
+if __name__ == '__main__':
+    assert binary_search([0, 2, 4, 6, 8], 0) == 0
+    assert binary_search([1, 3, 5, 7, 9], 3) == 1
+    assert binary_search([-9, 2, 13, 27, 31], 13) == 2
+    assert binary_search([-9, 2, 13, 27, 31], 27) == 3

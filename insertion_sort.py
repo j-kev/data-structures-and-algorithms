@@ -15,5 +15,6 @@ def insertion_sort(array):
     return array
         
 
-a = [5, 3, 4, 2, 0, 1]
-assert insertion_sort(a) == [0, 1, 2, 3, 4, 5]
+if __name__ == '__main__':
+    a = [5, 3, 4, 2, 0, 1]
+    assert insertion_sort(a) == [0, 1, 2, 3, 4, 5]

@@ -13,4 +13,5 @@ def bubble_sort(array):
     return array
 
 
-assert bubble_sort([5, 4, 3, 2, 0, 1]) == [0, 1, 2, 3, 4, 5]
+if __name__ == '__main__':
+    assert bubble_sort([5, 4, 3, 2, 0, 1]) == [0, 1, 2, 3, 4, 5]

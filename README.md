@@ -1,3 +1,3 @@
 # Data Structures and Algorithms
 
-TODO: linked list data structure, make folder.
+TODO: Continue working on linked list.

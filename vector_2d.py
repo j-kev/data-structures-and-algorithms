@@ -7,9 +7,9 @@ class Vector:
         return (self.x**2 + self.y**2) ** 0.5
 
     def __add__(self, other):
-        newx = self.x + other.x
-        newy = self.y + other.y
-        return Vector(newx, newy)
+        new_x = self.x + other.x
+        new_y = self.y + other.y
+        return Vector(new_x, new_y)
 
     def __str__(self):
         return "(%f, %f)" %(self.x, self.y)
